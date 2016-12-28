@@ -16,7 +16,7 @@ bot.dialog('/', [
     s = results.response;
     greetings.callRAPI("/index?doc=" + results.response, function(err,data){
     //console.log(s);
-    console.log(data[7])
+    //console.log(data[7])
     if (err) console.log(err);
     else 
     {
